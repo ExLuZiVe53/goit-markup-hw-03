@@ -132,14 +132,16 @@ body {
 }
 
 /* Hero */
-.hero {
-    outline: 2px solid teal;
+.section.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+
     background-color: var(--primary-text-color);
 }
 
 .hero-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 48px;
 
     font-weight: 700;
     font-size: 56px;
@@ -150,8 +152,21 @@ body {
 }
 
 /* Section-1*/
+.section.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.features-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .features-list .title{
+    margin-top: 0;
+    margin-bottom: 0;
+
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -160,6 +175,9 @@ body {
 }
 
 .features-list .paragraf {
+    margin-top: 8px;
+    margin-bottom: 0;
+
     color: var(--title-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -168,7 +186,14 @@ body {
 }
 
 /* Section-2 */
+.section.benefits {
+    padding-bottom: 120px;
+}
+
 .benefits-title{
+    margin-top: 0;
+    margin-bottom: 72px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -179,11 +204,17 @@ body {
 }
 
 /* Section-3 */
-section.emploers {
+.section.emploers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
     background-color: #F4F4FD;
 }
 
 .employers-title {
+    margin-top: 0;
+    margin-bottom: 72px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -194,6 +225,9 @@ section.emploers {
 }
 
 .employers-list .title {
+    margin-top: 32px;
+    margin-bottom: 0;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -202,6 +236,9 @@ section.emploers {
 }
 
 .employers-list .paragraf{
+    margin-top: 8px;
+    margin-bottom: 32px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -217,12 +254,19 @@ section.emploers {
 footer {
     background-color: var(--primary-text-color);
 }
+.footer {
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+}  
 
 .logo-span.footer{
     color: var(--logo-akcent-color);
 }
 
-footer .paragraf {
+.footer .paragraf {
+    margin-top: 17.5px;
+    margin-bottom: 0;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
