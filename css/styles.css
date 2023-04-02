@@ -24,7 +24,6 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
-    outline: 2px solid tomato;
 }
 
 .list {
@@ -152,10 +151,8 @@ body {
 }
 
 /* Section-1*/
-.section.features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-
+.margin-bottom {
+    margin-bottom: 120px;
 }
 
 .features-title {
@@ -186,9 +183,6 @@ body {
 }
 
 /* Section-2 */
-.section.benefits {
-    padding-bottom: 120px;
-}
 
 .benefits-title{
     margin-top: 0;
