@@ -293,6 +293,9 @@ footer {
 
 /* Section-Galery */
 .galery-list .title {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -300,9 +303,16 @@ footer {
     color: var(--primary-text-color);
 }
 .galery-list .paragraf {
+    margin-top: 32px;
+    margin-bottom: 8px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+}
+
+.tabs-list {
+    margin-bottom: 72px;
 }
