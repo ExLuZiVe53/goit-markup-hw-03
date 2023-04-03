@@ -200,6 +200,16 @@ body {
     margin-bottom: 0;
 }
 
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-list .item {
+    max-width: 264px;
+    background-color: aqua;
+}
+
 .features-list .title{
     margin-top: 0;
     margin-bottom: 0;
@@ -355,4 +365,25 @@ footer {
 
 .tabs-list {
     margin-bottom: 72px;
+}
+
+
+.test-container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: tomato;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-element {
+    width: 380px;
+    background-color: teal;
+    margin-right: 30px;
 }
