@@ -24,6 +24,8 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
+
+    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -56,7 +58,6 @@ img {
     border-radius: 4px solid transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
-    min-width: 169px;
 
     color: var(--primary-bg-color);
     background-color: var(--akcent-color);
@@ -70,6 +71,9 @@ img {
     display: block;
     margin: 0 auto;
     min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -197,6 +201,7 @@ img {
 .hero-title {
     margin-top: 0;
     margin-bottom: 48px;
+    max-width: 496px;
 
     font-weight: 700;
     font-size: 56px;
@@ -207,6 +212,10 @@ img {
 }
 
 /* Section-1*/
+.section.feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-title {
     margin-top: 0;
@@ -217,6 +226,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .features-list .item {
@@ -225,7 +235,7 @@ img {
 
 .features-list .title{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 
     color: var(--primary-text-color);
     font-weight: 500;
@@ -246,9 +256,14 @@ img {
 }
 
 /* Section-2 */
+.section.benefits{
+    padding-bottom: 120px;
+}
+
 .benefits-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .benefits-title{
