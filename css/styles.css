@@ -120,7 +120,6 @@ img {
 .site-nav {
     display: flex;
     margin-left: 76px;
-    gap: 40px;
 }
 
 ul.site-nav:nth-child(2n) {
@@ -217,7 +216,8 @@ ul.site-nav:nth-child(2n) {
 
 /* Section-1*/
 .section.feature {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-title {
