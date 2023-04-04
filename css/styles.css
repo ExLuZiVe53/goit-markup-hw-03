@@ -123,6 +123,10 @@ img {
     gap: 40px;
 }
 
+ul.site-nav:nth-child(2n) {
+    margin-left: 0;
+}
+
 .site-nav .item {
     gap: 40px;
 }
