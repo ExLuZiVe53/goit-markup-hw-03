@@ -437,7 +437,7 @@ a.logo.link-footer {
     width: calc((100% - 48px) / 3;
 }
 
-.galery-list .title {
+.item-box> .title {
     margin-top: 0;
     margin-bottom: 8px;
 
@@ -447,7 +447,7 @@ a.logo.link-footer {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.galery-list .paragraf {
+.item-box > .paragraf {
     margin-top: 32px;
     margin-bottom: 8px;
 
