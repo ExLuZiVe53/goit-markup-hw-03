@@ -122,11 +122,17 @@ img {
     margin-left: 76px;
 }
 
+.nav-menu {
+    gap: 40px;
+}
+
 ul.site-nav:nth-child(2n) {
     margin-left: 0;
 }
 
-.site-nav .item {
+
+
+.site-nav{
     gap: 40px;
 }
 
@@ -215,7 +221,7 @@ ul.site-nav:nth-child(2n) {
 }
 
 /* Section-1*/
-.section.feature {
+.section.features {
     padding-top: 120px;
     padding-bottom: 120px;
 }
