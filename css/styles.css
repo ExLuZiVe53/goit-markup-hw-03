@@ -163,6 +163,7 @@ ul.site-nav:nth-child(2n) {
 
 .address-nav {
     display: flex;
+    gap: 40px;
 }
 
 .address-nav .item + .item {
@@ -301,9 +302,8 @@ ul.site-nav:nth-child(2n) {
     border-radius: 0px 0px 4px 4px;
 }
 
-.items-container > .title {
+.items-container .title {
     text-align: center;
-    margin-bottom: 8px
 }
 
 .employers-title {
@@ -328,7 +328,7 @@ ul.site-nav:nth-child(2n) {
 
 .employers-list .title {
     margin-top: 32px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 
     font-weight: 500;
     font-size: 20px;
