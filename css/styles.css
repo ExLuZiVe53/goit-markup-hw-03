@@ -58,6 +58,7 @@ img {
     border-radius: 4px solid transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
+    margin: 0 auto;
 
     color: var(--primary-bg-color);
     background-color: var(--akcent-color);
@@ -122,8 +123,8 @@ img {
     gap: 40px;
 }
 
-.site-nav .item + .item {
-    margin-left: 40px;
+.site-nav .item {
+    gap: 40px;
 }
 
 .site-nav .navigation{
@@ -187,7 +188,6 @@ img {
 
 .button.primary {
     display: block;
-    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -213,8 +213,7 @@ img {
 
 /* Section-1*/
 .section.feature {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .features-title {
@@ -287,6 +286,16 @@ img {
     background-color: #F4F4FD;
 }
 
+.items-container {
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.items-container > .title {
+    text-align: center;
+    margin-bottom: 8px
+}
+
 .employers-title {
     margin-top: 0;
     margin-bottom: 72px;
@@ -304,6 +313,7 @@ img {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 24px;
 }
 
 .employers-list .title {
@@ -318,9 +328,10 @@ img {
 }
 
 .employers-list .paragraf{
-    margin-top: 8px;
+    margin-top: 0;
     margin-bottom: 32px;
 
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -329,7 +340,6 @@ img {
 }
 .employers-list .items{
     background-color: var(--primary-bg-color);
-    border-radius: 0px 0px 4px 4px;
 }
 
 /* Footer */
