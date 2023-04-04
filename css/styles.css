@@ -24,8 +24,6 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
-
-    outline: 1px solid rosybrown;
 }
 
 .container-flex {
@@ -43,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-.margin-bottom {
+.margin-section {
     margin-bottom: 120px;
 }
 
@@ -65,6 +63,7 @@ body {
 .button.primary {
     display: block;
     margin: 0 auto;
+    min-width: 169px;
 
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -203,11 +202,11 @@ body {
 .features-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .features-list .item {
     max-width: 264px;
-    background-color: aqua;
 }
 
 .features-list .title{
@@ -233,6 +232,14 @@ body {
 }
 
 /* Section-2 */
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.img-block {
+    display: block;
+}
 
 .benefits-title{
     margin-top: 0;
@@ -268,6 +275,12 @@ body {
     text-transform: capitalize;
 }
 
+.employers-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .employers-list .title {
     margin-top: 32px;
     margin-bottom: 0;
@@ -291,6 +304,7 @@ body {
 }
 .employers-list .items{
     background-color: var(--primary-bg-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /* Footer */
@@ -310,6 +324,7 @@ footer {
 .footer .paragraf {
     margin-top: 17.5px;
     margin-bottom: 0;
+    width: 264px;
 
     font-weight: 400;
     font-size: 16px;
@@ -365,25 +380,4 @@ footer {
 
 .tabs-list {
     margin-bottom: 72px;
-}
-
-
-.test-container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: tomato;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex-element {
-    width: 380px;
-    background-color: teal;
-    margin-right: 30px;
 }
