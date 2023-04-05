@@ -430,8 +430,8 @@ footer {
     row-gap: 48px;
 }
 
-.galery-list .item{
-    width: calc((100% - 48px) / 3;
+.galery-list .item {
+    width: calc((100% - 48px) / 3);
 }
 
 .title-galery {
@@ -460,7 +460,6 @@ footer {
     border: 1px solid var(--btn-border-color);
     border-top: none;
 }
-
 
 .visually-hidden {
     position: absolute;
