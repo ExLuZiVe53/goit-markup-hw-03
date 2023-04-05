@@ -353,17 +353,15 @@ ul.site-nav:nth-child(2n) {
 
 footer {
     background-color: var(--primary-text-color);
-}
-.footer {
     padding-top: 100px;
     padding-bottom: 100px;
-}  
+} 
 
 .logo-span.footer{
     color: var(--logo-akcent-color);
 }
 
-a.logo.link-footer {
+.logo.link-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -462,4 +460,18 @@ a.logo.link-footer {
     padding: 32px 16px;
     border: 1px solid var(--btn-border-color);
     border-top: none;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
