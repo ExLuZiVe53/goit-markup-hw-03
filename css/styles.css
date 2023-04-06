@@ -286,7 +286,7 @@ ul.site-nav:nth-child(2n) {
 
 .items-container {
     padding: 32px 16px;
-    
+    border-radius: 0px 0px 4px 4px;
 }
 
 .items-container .title {
@@ -311,10 +311,6 @@ ul.site-nav:nth-child(2n) {
     justify-content: space-between;
     text-align: center;
     gap: 24px;
-}
-
-.employers-list .items {
-    border-radius: 0px 0px 4px 4px;
 }
 
 .employers-list .title {
@@ -432,7 +428,7 @@ footer {
 
 .title-galery {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 
     font-weight: 500;
     font-size: 20px;
