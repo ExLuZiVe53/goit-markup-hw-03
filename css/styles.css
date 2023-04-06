@@ -97,8 +97,6 @@ img {
 .nav-menu {
     display: flex;
     align-items: center;
-    margin-right: auto;
-    gap: 40px;
 }
 
 .navigation{
@@ -117,10 +115,6 @@ img {
 .site-nav {
     display: flex;
     margin-left: 76px;
-}
-
-.nav-menu {
-    gap: 40px;
 }
 
 ul.site-nav:nth-child(2n) {
@@ -161,10 +155,6 @@ ul.site-nav:nth-child(2n) {
 .address-nav {
     display: flex;
     gap: 40px;
-}
-
-.address-nav .item + .item {
-    margin-left: 40px;
 }
 
 .address-nav .navigation{
@@ -251,7 +241,7 @@ ul.site-nav:nth-child(2n) {
     letter-spacing: 0.02em;
 }
 
-.features-list .paragraf {
+.features-list .text {
     margin-top: 8px;
     margin-bottom: 0;
 
@@ -296,7 +286,7 @@ ul.site-nav:nth-child(2n) {
 
 .items-container {
     padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .items-container .title {
@@ -323,8 +313,12 @@ ul.site-nav:nth-child(2n) {
     gap: 24px;
 }
 
+.employers-list .items {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .employers-list .title {
-    margin-top: 32px;
+    margin-top: 0;
     margin-bottom: 8px;
 
     font-weight: 500;
@@ -334,9 +328,9 @@ ul.site-nav:nth-child(2n) {
     color: var(--primary-text-color);
 }
 
-.employers-list .paragraf{
+.employers-list .text{
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 0;
 
     text-align: center;
     font-weight: 400;
@@ -363,11 +357,13 @@ footer {
 
 .logo.link-footer {
     display: inline-block;
+    margin-top: 0;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 
-.footer .paragraf {
-    margin-top: 17.5px;
+.footer .text {
+    margin-top: 0;
     margin-bottom: 0;
     width: 264px;
 
@@ -436,7 +432,7 @@ footer {
 
 .title-galery {
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 
     font-weight: 500;
     font-size: 20px;
@@ -444,9 +440,9 @@ footer {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.paragraf-galery {
+.text-galery {
     margin-top: 32px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 
     font-weight: 400;
     font-size: 16px;
